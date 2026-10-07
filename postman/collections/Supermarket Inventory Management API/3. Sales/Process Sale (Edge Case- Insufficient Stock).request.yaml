@@ -1,0 +1,14 @@
+$kind: http-request
+name: "Process Sale (Edge Case: Insufficient Stock)"
+url: "{{baseUrl}}/sales/"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+        "product_id": 1,
+        "quantity": 99999
+    }
+order: 2000

@@ -1,0 +1,13 @@
+$kind: http-request
+url: "{{baseUrl}}/categories/1"
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+        "name": "Beverages & Juices",
+        "description": "Updated description"
+    }
+order: 4000

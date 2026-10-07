@@ -1,0 +1,6 @@
+$kind: http-request
+url: "{{baseUrl}}/products/?search=coca"
+method: GET
+queryParams:
+  search: coca
+order: 3000

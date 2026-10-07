@@ -1,0 +1,13 @@
+# Use this workspace to collaborate
+workspace:
+  id: 996310bb-268e-4b57-8969-7c2c226ef31b
+
+cloudResources:
+  collections:
+    ../postman/collections/Supermarket Inventory Management API: 16ea0d30-de00-4e33-9110-50c192712fe7
+
+# All resources in the `postman/` folder are automatically registered in Local View.
+# Point to additional files outside the `postman/` folder to register them individually. Example:
+#localResources:
+#  collections:
+#    - ../tests/E2E Test Collection/

@@ -1,0 +1,13 @@
+$kind: http-request
+url: "{{baseUrl}}/categories/"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+        "name": "Beverages",
+        "description": "Cold and hot drinks, sodas, and juices"
+    }
+order: 1000

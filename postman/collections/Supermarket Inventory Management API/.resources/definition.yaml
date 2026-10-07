@@ -1,0 +1,4 @@
+$kind: collection
+description: Complete collection to test all endpoints of Supermarket Inventory API
+variables:
+  baseUrl: http://127.0.0.1:8080
